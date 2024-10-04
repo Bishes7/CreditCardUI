@@ -1,0 +1,118 @@
+*{
+       box-sizing: border-box;
+}
+body{
+       margin: 0;
+       background: rgba(0, 0, 0, 0.855);
+       position: relative;
+       height: 100vh;
+       color: white;
+       /* position: absolute; */
+}
+
+.pt-serif-regular {
+       font-family: "PT Serif", serif;
+       font-weight: 700;
+       font-style: normal;
+     }
+
+
+.d-center{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+
+.c1, .c2, .c3{
+       width: 150px;
+       height: 150px;
+       position: absolute;
+}
+.c1{
+       background: linear-gradient(orangered, yellow);
+       left: 50px;
+       top: 50px;
+       border-radius: 50%;
+}
+
+.c2{
+       background: linear-gradient(yellow, green);
+       bottom: 50px;
+       left: 50px;
+       border-radius: 80% 50% 20% 30% ;
+}
+.c3{
+       background: linear-gradient(red,purple);
+       bottom: 50px;
+       right: 50px;
+       border-radius: 30% 50% ;
+}
+
+.blur{
+       width: 100vw;
+       height: 100vh;
+       backdrop-filter: blur(20px);
+      
+       
+}
+
+.cc{
+       background: rgba(255, 255, 255, 0.144);
+       position: absolute;
+       width: 400px;
+       height: 200px;
+       padding: 1rem;
+       border: 1px solid;
+       border-radius: 16px;
+       box-shadow: 0 4px 20px gray;
+       backdrop-filter: blur(10px);
+  
+}
+
+.title{
+       font-size: 1.5rem;
+}
+
+.num{
+       font-size: 2rem;
+       margin-top: 3rem;
+       text-align: center;
+       letter-spacing: 2px;
+       font-weight: bolder;
+
+}
+
+.details{
+       margin-top: 1.5rem;
+       display: flex;
+       justify-content: space-between;
+       text-transform: uppercase;
+
+}
+
+.top{
+       font-size: 0.7rem;
+}
+.btm{
+       font-size: 1.2rem;
+       letter-spacing: 2px;
+}
+
+.visa{
+       font-size: 2dvi;
+       
+
+}
+
+.c4{
+       background: linear-gradient(purple,red);
+       height: 150px;
+       width: 150px;
+       border-radius: 50%;
+       right: calc(50% - 270px);
+       top: calc(50% - 180px);
+
+       position: absolute;
+
+}
